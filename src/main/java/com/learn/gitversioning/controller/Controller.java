@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/git-learn")
 public class Controller {
 
-    @GetMapping("/master")
-    public String welcome(){
-        return "master branch ---- welcome";
+    @GetMapping("/branch-1")
+    public String welcomeBranch1(){
+        return "branch-1 ---- welcome";
     }
 }
