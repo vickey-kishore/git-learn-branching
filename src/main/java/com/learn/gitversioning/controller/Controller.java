@@ -12,4 +12,9 @@ public class Controller {
     public String welcomeBranch1(){
         return "branch-1 ---- welcome";
     }
+
+    @GetMapping("/branch-1.1")
+    public String welcomeBranch1o1(){
+        return "branch-1.1 ---- welcome";
+    }
 }
